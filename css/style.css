@@ -193,17 +193,18 @@ footer a{
     color: rgb(247, 115, 8);
 }
 
+/* Abre navegación Responsive */
 .open{
     top: 0!important;
 }
+
+/* No permite escrolear cuando se abre el menú responsive. */
 .noscroll{
     overflow: hidden;
 }
-.scroll{
-    overflow: visible !important;
-}
 
 
+/* Media queries Moviles */
 @media only screen and (max-width:420px){
     .mobile_button{
         position: absolute;
@@ -246,7 +247,9 @@ footer a{
         
        
     }
-
+    .box{
+        margin-top: 50px;
+    }
     .box h1{
         font-size: 160%;
        
@@ -283,5 +286,10 @@ footer a{
 
     .curriculum button{
         font-size: 20px;        
+    }
+
+    footer{
+        height: 15vh;
+        border-top: 1px solid ;
     }
 }

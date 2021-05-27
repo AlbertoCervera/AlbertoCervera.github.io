@@ -1,6 +1,5 @@
-
+// Efecto aparición de elementos en pantallas grandes.
 window.addEventListener("scroll",function(){
-    
     var row = document.getElementById("row");
     var row2 = document.getElementById("row2");
  
@@ -17,7 +16,7 @@ window.addEventListener("scroll",function(){
     
 });
 
-
+// Elimina el efecto aparecer al hacer scroll qu está aplicado en pantalla grande.
 if (this.screen.width < 450){
     row2.classList.add("aparece2");
     row.classList.add("aparece");
@@ -27,7 +26,7 @@ if (this.screen.width < 450){
 
 
 
-// Responsive Navegation.
+// Responsive Navegation. --> Abre Menú Navegación.
 function activar(){
     let nav = document.getElementById("nav");
     let html = document.getElementsByTagName("html")[0]
@@ -37,3 +36,10 @@ function activar(){
     
 }
 
+// Responsive --> Cierra el menu cuando le damos click a un enlace de la navegación.
+function navegar(){
+    let button = document.getElementById("button");
+    if ( this.screen.width < 450){
+        button.click()
+    }
+}
