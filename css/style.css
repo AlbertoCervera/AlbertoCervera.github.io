@@ -145,3 +145,52 @@ padding: 50px 120px;
     opacity: 1 !important;
     
 }
+
+
+.curriculum{
+    width: 100%;
+    height: 30vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    flex-direction: column;
+}
+.curriculum button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: rgb(32, 153, 153);
+    transition: all .5s;
+    cursor: pointer;
+    
+}
+
+.curriculum button:hover{
+    background-color: rgb(21, 133, 133);
+}
+
+.curriculum button a{
+   
+    text-decoration: none;
+    color: white;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(247, 115, 8);
+}
