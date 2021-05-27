@@ -199,6 +199,10 @@ footer a{
 .noscroll{
     overflow: hidden;
 }
+.scroll{
+    overflow: visible !important;
+}
+
 
 @media only screen and (max-width:420px){
     .mobile_button{
