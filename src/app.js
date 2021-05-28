@@ -17,7 +17,7 @@ window.addEventListener("scroll",function(){
 });
 
 // Elimina el efecto aparecer al hacer scroll qu está aplicado en pantalla grande.
-if (this.screen.width < 450){
+if (this.screen.width < 670){
     row2.classList.add("aparece2");
     row.classList.add("aparece");
     
