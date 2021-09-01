@@ -54,7 +54,7 @@ function navegar() {
 // ----Loader de Experiencia---------
 // escucha el evento scroll y cuando la pantalla sea inferior a 400px de anchura y se sobrepase la cordenada Y, se aplicarán los estilos.  
 window.addEventListener("scroll", function () {
-  console.log(window.scrollY);
+
   if (this.screen.width < 400 && window.scrollY > 510) {
     let loader1 = document.getElementById("loader-1");
     let loader2 = document.getElementById("loader-2");
@@ -68,5 +68,28 @@ window.addEventListener("scroll", function () {
     loader4.classList.add("load4");
   }
 });
+
+// Darkmode Switch
+const switchDarkMode = document.getElementById("switch");
+const rowsText = document.getElementsByClassName("txt")[1];
+const rowsText2 = document.getElementsByClassName("txt")[4];
+
+const item1 = document.getElementById("item-1");
+const item2= document.getElementById("item-2");
+const item3 = document.getElementById("item-3");
+const item4 = document.getElementById("item-4");
+
+switchDarkMode.addEventListener("click", () => {
+
+  switchDarkMode.classList.toggle("active-btn");
+  document.body.classList.toggle("dark");
+  rowsText.classList.toggle("dark");
+  rowsText2.classList.toggle("dark");
+  item1.classList.toggle("dark2");
+  item2.classList.toggle("dark2");
+  item3.classList.toggle("dark2");
+  item4.classList.toggle("dark2");
+ 
+})
 
 

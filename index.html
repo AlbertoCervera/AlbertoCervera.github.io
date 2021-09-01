@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/loader.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/3095830c04.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/MyFavicon.ico" type="image/x-icon">  
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
     <title>AlbertoCervera|Portfolio</title>
@@ -24,12 +25,20 @@
     <!-- Navegación -->
     <div class="nav" id="nav">
 
-        <img src="img/mylogo.png" alt="" srcset="">
+        <span class="logo-icon"><i class="fas fa-code fa-3x"></i></span>
+        <!--<img src="img/mylogo.png" alt="logo">-->
+
         <ul>
-            <li><a onclick="navegar()" href="index.html">Inicio</a></li>
-            <li><a onclick="navegar()" href="#row">Sobre mí</a></li>
-            <li><a onclick="navegar()" href="#curriculum">Curriculum</a></li>
-            <li><a onclick="navegar()" href="index.html">Contacto</a></li>
+            <li><a id="item-1" class="nav-item" onclick="navegar()" href="index.html">Inicio</a></li>
+            <li><a id="item-2" class="nav-item" onclick="navegar()" href="#row">Sobre mí</a></li>
+            <li><a id="item-3" class="nav-item" onclick="navegar()" href="#curriculum">Curriculum</a></li>
+            <li><a id="item-4" class="nav-item" onclick="navegar()" href="index.html">Contacto</a></li>
+            <li>
+                <button class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+                </button>
+            </li>
         </ul>
 
     </div>
@@ -54,9 +63,9 @@
 
         <div class="texto">
 
-            <h3>Desarrollo de Aplicaciones Web</h3>
-            <h1>Programación de proyectos Frontend.</h1>
-            <span>HTML5, CSS3, JavaScript</span>
+            <h3 class="txt">Desarrollo de Aplicaciones Web</h3>
+            <h1 class="txt">Programación de proyectos Frontend.</h1>
+            <span class="txt">HTML5, CSS3, JavaScript</span>
 
         </div>
 
@@ -68,11 +77,11 @@
 
     <div class="row2" id="row2">
 
-        <div class="texto ml">
+        <div  class="texto ml">
 
-            <h3>Programador Python</h3>
-            <h1>Uso de Software controlador de versiones.</h1>
-            <span>Git y GitHub</span>
+            <h3 class="txt">Programador Python</h3>
+            <h1 class="txt">Uso de Software controlador de versiones.</h1>
+            <span class="txt">Git y GitHub</span>
 
         </div>
 
@@ -115,10 +124,6 @@
 
 
 </div>
-
-
-
-
 
     <footer>
         <p>Página Web Desarrollada por <a target="_blank" href="https://github.com/AlbertoCervera">Alberto Cervera</a></p>
