@@ -36,7 +36,7 @@ if (this.screen.width < 670) {
 
 // Responsive Navegation. --> Abre Menú Navegación.
 function activar() {
-  let nav = document.getElementById("nav");
+  var nav = document.getElementById("nav");
   let html = document.getElementsByTagName("html")[0];
   nav.classList.toggle("open");
   //Desactivar scroll al abrir el menu en movil.
@@ -79,6 +79,9 @@ const item2= document.getElementById("item-2");
 const item3 = document.getElementById("item-3");
 const item4 = document.getElementById("item-4");
 
+const hamburguerMobile = document.getElementsByClassName("line")
+
+
 switchDarkMode.addEventListener("click", () => {
 
   switchDarkMode.classList.toggle("active-btn");
@@ -89,7 +92,10 @@ switchDarkMode.addEventListener("click", () => {
   item2.classList.toggle("dark2");
   item3.classList.toggle("dark2");
   item4.classList.toggle("dark2");
- 
+  nav.classList.toggle("dark");
+  hamburguerMobile[0].classList.toggle("dark3");
+  hamburguerMobile[1].classList.toggle("dark3");
+  hamburguerMobile[2].classList.toggle("dark3");
 })
 
 
