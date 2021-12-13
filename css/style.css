@@ -115,10 +115,14 @@
 }
 
 .box{
+    
     width: 750px;
     text-align: center;
     margin-top: 10%;
     
+}
+#logo_face{
+    font-size: 70px;
 }
 
 .box h1{
@@ -223,26 +227,41 @@
     font-size: 30px;
     flex-direction: column;
 }
+.curriculum p i{
+    color: #6c63ff;
+    background-color: #f88d37;
+    border-radius: 4px;
+    width: 30px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 40px;
+    box-shadow: 0px 0px 10px;
+}
 .curriculum button{
     margin-top: 10px;
     padding: 5px 10px;
     border: none;
     border-radius: 4px;
     font-size: 30px;
-    background-color: rgb(32, 153, 153);
-    transition: all .5s;
+    background-color: #6c63ff;
+    transition: all 250ms ;
     cursor: pointer;
+    color: black;
     
 }
 
-.curriculum button:hover{
-    background-color: rgb(21, 133, 133);
+
+.curriculum button a:hover{
+    color: #f88d37;
+
 }
 
 .curriculum button a{
    
     text-decoration: none;
-    color: white;
+    color: #fff;
+    padding: 6px 20px;
+
 
 }
 
@@ -257,7 +276,7 @@ footer{
 }
 footer a{
     text-decoration: none;
-    color: rgb(247, 115, 8);
+    color: rgb(241, 57, 1);
 }
 
 /* Abre navegación Responsive */
