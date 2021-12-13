@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
+    scroll-padding: 30%;
     transition: all ease .2s;
 }
 
