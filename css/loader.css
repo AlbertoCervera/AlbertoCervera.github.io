@@ -78,12 +78,12 @@
 
 @keyframes myloader{
 	0%{width: 10px;background-color: white;}
-	100%{width: 130px;background-color: rgb(248, 244, 7);}
+	100%{width: 190px;background-color: rgb(248, 244, 7);}
 	
 }
 @keyframes myloader2{
 	0%{width: 10px;background-color:white ;}
-	100%{width: 170px;background-color: rgb(31, 82, 150);}
+	100%{width: 150px;background-color: rgb(31, 82, 150);}
 	
 }
 @keyframes myloader3{
@@ -94,7 +94,7 @@
 
 @keyframes myloader4{
 	0%{width: 10px;background-color: white;}
-	100%{width: 170px;background-color: rgb(0, 157, 248);}
+	100%{width: 180px;background-color: rgb(0, 157, 248);}
 	
 }
 
