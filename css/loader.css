@@ -7,7 +7,7 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
-
+	
 }
 .preloader{
 	height: 200px;
@@ -17,9 +17,9 @@
 } 
 
 .logos{
-	width: 30px;
+	width: 40px;
 	height: 200px;
-
+	
 	display: flex;
 	flex-direction: column;
 	
@@ -78,23 +78,23 @@
 
 @keyframes myloader{
 	0%{width: 10px;background-color: white;}
-	100%{width: 190px;background-color: rgb(248, 244, 7);}
+	100%{width: 190px;background-color: #F7E018;}
 	
 }
 @keyframes myloader2{
 	0%{width: 10px;background-color:white ;}
-	100%{width: 150px;background-color: rgb(31, 82, 150);}
+	100%{width: 180px;background-color: #5ADAFD;}
 	
 }
 @keyframes myloader3{
 	0%{width: 10px;background-color: white;}
-	100%{width: 190px;background-color: rgb(211, 60, 0);}
+	100%{width: 150px;background-color: #17BCB8;}
 	
 }
 
 @keyframes myloader4{
 	0%{width: 10px;background-color: white;}
-	100%{width: 180px;background-color: rgb(0, 157, 248);}
+	100%{width: 110px;background-color: #000000;}
 	
 }
 
